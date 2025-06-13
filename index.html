@@ -1,0 +1,172 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhisek Sarkar - Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="icon" href="https://i.ibb.co/zTTnfTpS/Chat-GPT-Image-May-9-2025-06-35-01-PM.png" type="image/png">
+
+  <!-- Updated EmailJS SDK v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    emailjs.init("qgWVYsRXJqxa5JJ8D");
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">Abhisek Sarkar</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Abhisek Sarkar</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>BCA Student | Full Stack Developer | Java Developer</p>
+      <div class="social-media">
+        <a href="https://github.com/Abhisek895"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/abhisek-sarkar-5b8238256/"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/1pW_3Rit0PQ3gIYVAEvG4d4JK7lciwupj/view?usp=drive_link" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+      <img src="https://i.ibb.co/JjKybJvm/iii.jpg" alt="Abhisek Image" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="https://i.ibb.co/JjKybJvm/iii.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading"><span>About </span>Me</h2>
+      <h3><span>Full Stack Developer</span></h3>
+      <p> Dedicated and detail-driven BCA student with a strong proficiency
+        in programming languages such as HTML, CSS, JavaScript, C, C++,
+        Java, and VB.NET, as well as DBMS. Eager to leverage my skills and
+        knowledge in a dynamic internship setting, where I can apply my
+        technical expertise to drive innovation and growth, while further
+        developing my skills and expertise in the field.</p>
+      <a href="https://drive.google.com/file/d/1pW_3Rit0PQ3gIYVAEvG4d4JK7lciwupj/view?usp=drive_link" class="btn Read-More-btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="service" id="services">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p style="text-align: justify;">I build clean, responsive websites that look sharp and work smoothly. Using HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, MySQL, and MongoDB, I turn ideas into real, usable web experiences — always focusing on performance, accessibility, and solid code behind the scenes.</p>
+        <a href="WebDevelopment.html" class="btn">Read More</a>
+      </div>
+      <div class="services-box">
+        <i class="fa-solid fa-palette"></i>
+        <h3>UI/UX Design</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptates esse expedita facere non, totam qui fugiat et eaque magni nulla voluptatem voluptas laudantium tempore a, quae porro, ipsam explicabo?</p>
+        <a href="UIUXDesign.html" class="btn">Read More</a>
+      </div>
+      <div class="services-box">
+        <i class="fa-brands fa-android"></i>
+        <h3>App Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptates esse expedita facere non, totam qui fugiat et eaque magni nulla voluptatem voluptas laudantium tempore a, quae porro, ipsam explicabo?</p>
+        <a href="AppDevelopment.html" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+
+      <div class="portfolio-box">
+        <img src="https://i.ibb.co/Q748mDnS/a-modern-library-with-a-large-collection-of-textbooks-in-a-row-generated-by-ai-free-photo.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Library Management System</h4>
+          <p>A Java-based desktop application using MySQL for managing book inventory, student records, and issue/return tracking in a library environment.</p>
+          <a href="LibraryManagementSystem.html" class="btn portfolio-btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="https://i.ibb.co/DDZjfgvQ/R.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Simon Game</h4>
+          <p>Built with HTML, CSS, JavaScript, and the Web Audio API for sound effects, utilizing DOM manipulation for dynamic gameplay</p>
+          <a href="SimonGame.html" class="btn portfolio-btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="https://i.ibb.co/q34FzTfz/tour-travel-website-design-kerala.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Tour Booking Website</h4>
+          <p>A responsive tour booking website built using the MERN stack (MongoDB, Express.js, React, Node.js), allowing users to browse destinations, check availability, and securely book tours.</p>
+          <a href="TourBookingWebsite.html" class="btn portfolio-btn">Read More</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="Contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form>
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" id="name" required>
+        <input type="email" name="email" placeholder="Email" id="email" required>
+      </div>
+      <div class="input-box">
+        <input type="number" name="PhoneNo" placeholder="Phone Number" id="PhoneNumber" required>
+        <input type="text" name="title" placeholder="Email Subject" id="Subject" required>
+      </div>
+      <textarea name="message" cols="30" rows="10" placeholder="Your Message" id="message" required></textarea>
+      <input type="button" value="Send Message" class="btn" onclick="contactMe()">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>copyright &copy; 2025 by <b>@AbhisekSarkar</b></p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+
+  <!-- External JS Libraries -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Your Custom JS -->
+  <script src="portfolio.js"></script>
+</body>
+</html>
